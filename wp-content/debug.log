@@ -1,0 +1,188 @@
+[21-Nov-2024 07:48:49 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin.php(34): require_once('...')
+#16 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:48:49 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-blog-header.php(13): require_once('...')
+#16 /var/www/html/federal-pension/index.php(17): require('...')
+#17 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:49:15 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin-ajax.php(22): require_once('...')
+#16 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:50:15 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin-ajax.php(22): require_once('...')
+#16 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:58:56 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin-ajax.php(22): require_once('...')
+#16 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:59:08 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin.php(34): require_once('...')
+#16 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:59:10 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin.php(34): require_once('...')
+#16 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:59:17 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin.php(34): require_once('...')
+#16 /var/www/html/federal-pension/wp-admin/themes.php(10): require_once('...')
+#17 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 07:59:22 UTC] PHP Fatal error:  Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist()
+#1 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(456): WP_Filesystem_FTPext->exists()
+#2 /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php(757): WP_Filesystem_FTPext->is_file()
+#3 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(467): WP_Filesystem_FTPext->dirlist()
+#4 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-minify.php(434): Astra_Minify::clear_assets_cache()
+#5 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Minify::refresh_assets()
+#6 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/html/federal-pension/wp-content/plugins/astra-addon/classes/class-astra-theme-extension.php(170): do_action()
+#9 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(324): Astra_Theme_Extension->addons_action_hooks()
+#10 /var/www/html/federal-pension/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /var/www/html/federal-pension/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /var/www/html/federal-pension/wp-settings.php(704): do_action()
+#13 /var/www/html/federal-pension/wp-config.php(105): require_once('...')
+#14 /var/www/html/federal-pension/wp-load.php(50): require_once('...')
+#15 /var/www/html/federal-pension/wp-admin/admin.php(34): require_once('...')
+#16 /var/www/html/federal-pension/wp-admin/themes.php(10): require_once('...')
+#17 {main}
+  thrown in /var/www/html/federal-pension/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+[21-Nov-2024 08:18:50 UTC] Automatic updates starting...
+[21-Nov-2024 08:18:50 UTC]   Automatic plugin updates starting...
+[21-Nov-2024 08:18:50 UTC]   Automatic plugin updates complete.
+[21-Nov-2024 08:18:50 UTC] Automatic updates complete.
+[21-Nov-2024 09:43:14 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /var/www/html/federal-pension/wp-includes/kses.php on line 1805
